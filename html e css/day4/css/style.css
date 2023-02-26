@@ -1,0 +1,21 @@
+.floatleft {
+    float: left;
+    border: 5px solid red;
+    margin: 0 1rem 1rem 0;
+  }
+  .floatright{
+    float: right;
+    border: 5px solid red;
+    margin: 0 0 1rem 1rem;
+  }
+  
+  article:after {
+      content: "";
+      display: table;
+      clear: both;
+  } /*para usar float é preciso usar o clear, se nao a imagem pode sair da pag*/
+  article{
+    width: 50rem;
+    border: 3px solid red;
+    margin: 0 auto;
+  }

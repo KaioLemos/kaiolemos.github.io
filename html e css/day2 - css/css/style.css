@@ -1,0 +1,103 @@
+/* my first css*/
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(100, 21, 48);
+    color: rgb(200, 199, 199);
+    text-align: center;
+    height: 20px;
+}
+
+p {
+    line-height: 1rem;
+}
+
+a {
+    color: white;
+}
+
+#myid {
+    color:antiquewhite;
+    font-weight: bold;
+}
+
+a:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none; /* sem a linha tracejada em baixo */
+    font-size: 1rem;
+}
+
+a:hover {
+    color: rgb(87, 12, 12);
+    text-decoration: underline;
+    background-color: white;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(87, 12, 12);
+    font-weight: normal;
+}
+
+a.pinterest:link {
+    color: white;
+    background-color: rgb(100, 21, 48);
+}
+
+a.pinterest:hover {
+    color: rgb(87, 12, 12);
+    text-decoration: underline;
+    background-color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+    border: 5px dashed;
+}
+
+
+img {
+    border: 5px solid black;
+    width: 202px;
+    height: 200px;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem; /* rem = *16 */;
+    font-style: italic;
+    text-align: center;    
+}
+
+cite {
+    font-size: 1.5rem;
+    background-color: white;
+    color: rgb(87, 12, 12);
+    margin-left: 300px;
+}
+
+ul {
+    text-align: center;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+    float: left;
+}
+
+.inicio {
+    border-color: rgb(87, 12, 12);
+}
+
+.sobremim {
+    border: 5px dotted rgb(200, 199, 199);
+}
+
+.titulo {
+    background: url(https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    color: black;
+}
